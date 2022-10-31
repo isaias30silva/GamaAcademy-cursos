@@ -1,3 +1,6 @@
+package core;
+
+
 
 public class Time {
 	private int hora;
