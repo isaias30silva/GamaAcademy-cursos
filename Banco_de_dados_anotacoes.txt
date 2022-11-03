@@ -1,0 +1,45 @@
+-> Modelo de Trabalho
+
+1 - Tudo começa a partir da especificação de um determinado problema. Sobre o que será o sistema? 
+Qual problema ele resolverá?
+
+2 - A partir da especificação do problema, o próximo passo é a Modelagem Conceitual. É uma primeira 
+modelagem, onde é identificado quais são objetos que serão armazenados e como eles se relacionam.
+Aqui, serão identificados os objetos e como eles se relacionam. A partir disso, será elaborado o diagrama
+"Modelo entidade-relacionamento".
+
+3 - Após a construção do modelo entidade-relacionamento, é feito um refinamento por meio de uma "Modelagem lógica",
+que será produzida de forma a se tornar o mais próxima possível do esperado para a construção do sistema.
+É o "Modelo Relacional", documento que deixará explícito como as entidades estarão relacionadas.
+
+4 - Depois, é realizada a Modelagem Física/Implementação, utilizando um serviço/software que permita modelar
+as informações, criando a estrutura para o armazenamento dos dados. Assim, será utilizada uma linguagem própria
+para o trabalho com dados, SQL (Structure Query Language) - Data Definition Language
+
+-> Base de Dados (Banco de Dados) = coleção de dados, ou seja, informações armazenadas com alguma relação entre si.
+
+-> SGBD = Sistema Gerenciador de Banco de Dados
+	Software para processamento de consultas e manipulação de dados armazenados
+
+
+-> Modelo Entidade-Relacionamento
+	Modelo bastante intuitivo, que descreve elementos que participam do domínio da aplicação e como
+	estes elementos se relacionam. Descreve objetos(entidades) e a interação entres esses elementos(relações)
+
+	Ex: entidade = aluno / atributos da entidade aluno = nome, idade, número de matrícula, série, notas
+
+-> Cardinalidades: indica a quantidade de ocorrências de uma entidade associada a outra. Muda totalmente a
+interpretação do problema.
+
+	Cardinalidade(1:1) - Quando um elemento só pode estar vinculada a apenas um outro elemento.
+	Ex: marido casa-se com 1 esposa e uma esposa casa-se com 1 marido (isso no Brasil)
+
+	Cardinalidade(1:N) - Um para muitos: quando muitos elementos podem estar vinculados a um outro elemento.
+	Ex: um funcionário trabalha em 1 departamento. Em 1 departamento trabalham muitos (N) funcionários.
+
+	Cardinalidade(M:N) - Muitos para muitos: quando muitos elementos podem estar vinculados a muitos outros elementos.
+	Ex: um médico consulta muitos(N) pacientes. um paciente é consultado por muitos(N) médicos.
+
+	
+	
+
