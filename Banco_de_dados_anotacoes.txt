@@ -41,5 +41,34 @@ interpretação do problema.
 	Ex: um médico consulta muitos(N) pacientes. um paciente é consultado por muitos(N) médicos.
 
 	
+-> Ferramenta Draw.io = útil para fazer esboços dos modelos entidade-relacionamento.
+
+-> Modelo conceitual: abstrato, voltado para a parte gráfica. Uma forma de estruturas as ideias iniciais das
+regras de negócio.
+
+-> Modelo Relacional - é o próximo passo de modelagem, após o modelo entidade-relacional. É o que mais vai se 
+aproximar da realidade do negócio. Reflete como o Banco de Dados deve ser organizado. Trabalha com a ideia
+de tabelas, conjunto de tuplas(linhas). 
+
+-> Índice: serve para localizar uma informação de forma ágil.
+
+-> Chaves: elemento que identifica uma linha ou estabelece relações entre linhas de várias tabelas.
+	chave primária, chave estrangeira, chave alternativa
+
+-> Chave primária: identifica de forma única um registro. Ex: CPF(pois não é possível mais de uma pessoa ter o mesmo CPF)
+-> Chave estrageira: é a informação que identifica unicamente um elemento na tabela, porém, ela pode migrar para
+outras tabelas, o que possibilita a referenciação das informações.
+
+-> Chave alternativa: são tratadas com índices no sistema. São diferentes das chaves primárias, porque a chave
+primária será o elemento que será referenciado em um relacionamento.
+
+-> Implementação inicial - Entidades
+	Cada entidade torna-se uma tabela no sistema, cujos atributos são mapeados para campos - colunas.
+
+
+
+
+
+
 	
 
